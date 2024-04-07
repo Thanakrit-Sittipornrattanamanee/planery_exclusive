@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1047748106258",
+    "project_id": "plannery-exclusive",
+    "storage_bucket": "plannery-exclusive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047748106258:android:1c5ecddef59a5de9b560cb",
+        "android_client_info": {
+          "package_name": "com.example.planery_exclusive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5C4_PQ7k7aqcto_4K1v9ccfwPS0cV6sI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
