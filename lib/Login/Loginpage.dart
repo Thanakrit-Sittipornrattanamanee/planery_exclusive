@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:planery_exclusive/HomeScreen/Homescreen.dart';
 import 'Register.dart';
 
 
@@ -31,10 +32,10 @@ class _LoginPageState extends State<LoginPage> {
               fontSize: 35,
             ),
           ),
-          Image.asset(
-            "lib/assets/man.jpg",
-            width: 300,
-          ),
+          // Image.asset(
+          //   "lib/assets/man.jpg",
+          //   width: 300,
+          // ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 50),
             child: Form(
@@ -89,7 +90,7 @@ class _LoginPageState extends State<LoginPage> {
                       onPressed: () {
                         Navigator.push(context,
                             MaterialPageRoute(builder: (context) {
-                          return LoginPage();
+                          return HomeScreen();
                         }));
                       },
                       color: Colors.black,
